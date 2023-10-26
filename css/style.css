@@ -321,7 +321,7 @@ section {
   max-width: 50px;
   position: absolute; /* Define a imagem como uma posição absoluta */
   bottom: 50px; /* Define a distância do fundo do contêiner para 0 (ou seja, a parte inferior) */
-  left: 150px;
+  left: 130px;
 }
 
 .section-three {
@@ -330,22 +330,29 @@ section {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
+  
 }
 
 .section-three-form {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 50px;
 }
 
 
-#mensagem {
-  padding: 150px;
+#Mensagem {
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+  padding: 10px;
+  width: 100%;
+  height: 200px;
+  resize: none
 }
 
 input {
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -354,17 +361,38 @@ input {
 .section-three-form {
   display: flex;
   flex-direction: column;
-}
-
-input::placeholder {
-  text-align: left;
-}
+  padding-bottom: 8%;
+  }
 
 .form-botoes input[type="submit"] {
   background-color: var(--primary);
   color: white;
   padding: 2%;
-  width: 700px;
+  width: 800px;
+  margin-top: 20px;
+}
+
+.dados-pessoais {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.coluna-1 {
+  display: flex;
+  gap: 15px;
+  width: 800px;
+}
+
+.coluna-2 {
+  display: flex;
+  gap: 15px;
+}
+
+.coluna {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 
