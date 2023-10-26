@@ -1,0 +1,104 @@
+@media  (max-width: 576px) {
+
+    * {
+        font-size: 14px;
+    }
+
+    .cabecalho {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .cabecalho-logo h2 {
+        width: 60%;
+    }
+
+    .cabecalho-menu {
+        position: relative;
+        left: 100px;
+        top: 20px;
+    }
+
+    .cabecalho-menu ul li {
+        font-size: 1.1rem;
+    }
+
+    .main {
+        width: 140%;
+        flex-direction: column;
+    }
+
+    .main-imagem {
+        width: 150%;
+    }
+
+    .main p {
+        font-size: 1rem;
+    }
+
+    .main h2 {
+        font-size: 2rem;
+    }
+
+    .main-titulo h2 span {
+        font-size: 2rem;
+    }
+
+    .section-one {
+        width: 130%;
+    }
+
+    .section-one-card {
+        width: 130%;
+    }
+
+    .section-two {
+        width: 130%;
+    }
+
+    .section-two-card {
+        width: 130%;
+    }
+
+    .section-two-botao {
+        width: 130%;
+    }
+
+    .section-three {
+        width: 130%;
+    }
+
+    .section-three-form {
+        width: 130%;
+    }
+
+    .dados-pessoais {
+        width: 80%;
+    }
+
+    .coluna-1 {
+        width: 100%;
+    }
+
+    .form-botoes input[type="submit"] {
+        width: 550%;
+
+    }
+
+    .form-botoes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rodape {
+        width: 135%;
+    }
+
+    .footer-botao-flecha {
+        position: relative;
+        right: 170px;
+    }
+
+}
