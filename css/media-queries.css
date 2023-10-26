@@ -7,16 +7,22 @@
     .cabecalho {
         flex-direction: column;
         justify-content: space-between;
+        width: 130%;
     }
 
-    .cabecalho-logo h2 {
-        width: 60%;
+    .cabecalho-logo {
+        width: 50%;
     }
+
+    .cabecalho h2 {
+        width: 50%;
+    }
+
 
     .cabecalho-menu {
         position: relative;
-        left: 100px;
         top: 20px;
+
     }
 
     .cabecalho-menu ul li {
@@ -24,7 +30,7 @@
     }
 
     .main {
-        width: 140%;
+        width: 130%;
         flex-direction: column;
     }
 
@@ -37,19 +43,35 @@
     }
 
     .main h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .main img {
+        width: 130%;
     }
 
     .main-titulo h2 span {
         font-size: 2rem;
     }
 
+    .main-botao {
+        width: 100%;
+    }
+
     .section-one {
         width: 130%;
     }
 
+    .section-titulo h2 {
+        font-size: 3rem;     
+    }
+
     .section-one-card {
         width: 130%;
+    }
+
+    .card {
+        width: 20%;
     }
 
     .section-two {
@@ -73,7 +95,7 @@
     }
 
     .dados-pessoais {
-        width: 80%;
+        width: 100%;
     }
 
     .coluna-1 {
@@ -81,7 +103,7 @@
     }
 
     .form-botoes input[type="submit"] {
-        width: 550%;
+        width: 700%;
 
     }
 
