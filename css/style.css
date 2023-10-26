@@ -251,3 +251,122 @@ section {
   width: 300px;
   text-align: center;
 }
+
+.rodape {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--dark);
+}
+
+.footer-get {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+}
+
+.footer-endereco ul li {
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
+  color: rgb(148, 165, 201);
+}
+
+.footer-endereco ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-endereco ul li img {
+  max-width: 25px;
+  max-height: 30px;
+}
+
+.footer-social figure img {
+  width: 35px;
+}
+
+.footer-endereco {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.footer-links {
+  color: rgb(148, 165, 201);
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+  
+}
+
+.footer-links h2 {
+  color: white;
+
+}
+
+.footer-links p {
+  padding: 2%
+}
+
+.footer-botao-flecha {
+  position: relative;
+}
+
+.footer-botao-flecha figure img {
+  max-width: 50px;
+  position: absolute; /* Define a imagem como uma posição absoluta */
+  bottom: 50px; /* Define a distância do fundo do contêiner para 0 (ou seja, a parte inferior) */
+  left: 150px;
+}
+
+.section-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.section-three-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#mensagem {
+  padding: 150px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.section-three-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input::placeholder {
+  text-align: left;
+}
+
+.form-botoes input[type="submit"] {
+  background-color: var(--primary);
+  color: white;
+  padding: 2%;
+  width: 700px;
+}
+
+
+
+
