@@ -308,8 +308,10 @@ section {
 
 }
 
-.footer-links p {
-  padding: 2%
+.footer-links a {
+  padding: 2%;
+  text-decoration: none;
+  color: rgb(117, 150, 201);
 }
 
 .footer-botao-flecha {
