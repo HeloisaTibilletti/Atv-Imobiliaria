@@ -5,22 +5,15 @@
     }
 
     .cabecalho {
-        flex-direction: column;
-        justify-content: center;
-        width: 130%;
-    }
-
-    .cabecalho-logo {
-        width: 50%;
+        width: 100%;
     }
 
     .cabecalho h2 {
-        width: 50%;
+        width: 10%;
     }
 
-
-    .cabecalho-menu {
-        position: relative;
+    nav {
+        width: 100%;
     }
 
     .cabecalho-menu ul li {
@@ -29,7 +22,7 @@
 
     .main {
         display: flex;
-        width: 130%;
+        width: 100%;
         flex-direction: column;
         text-align: center;
     }
@@ -39,7 +32,7 @@
     }
 
     .main h2 {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
 
     .main figure img {
@@ -47,7 +40,7 @@
     }
 
     .main-titulo h2 span {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
 
     .main-botao {
@@ -55,7 +48,7 @@
     }
 
     .section-one {
-        width: 130%;
+        width: 100%;
     }
 
     .section-titulo h2 {
@@ -63,31 +56,31 @@
     }
 
     .section-one-card {
-        width: 130%;
+        width: 100%;
     }
 
     .card {
-        width: 20%;
+        width: 50%;
     }
 
     .section-two {
-        width: 130%;
+        width: 100%;
     }
 
     .section-two-card {
-        width: 130%;
+        width: 100%;
     }
 
     .section-two-botao {
-        width: 130%;
+        width: 100%;
     }
 
     .section-three {
-        width: 130%;
+        width: 100%;
     }
 
     .section-three-form {
-        width: 130%;
+        width: 100%;
     }
 
     .dados-pessoais {
@@ -99,7 +92,7 @@
     }
 
     .form-botoes input[type="submit"] {
-        width: 700%;
+        width: 100%;
 
     }
 
@@ -111,12 +104,12 @@
     }
 
     .rodape {
-        width: 135%;
+        width: 100%;
     }
 
     .footer-botao-flecha {
         position: relative;
-        right: 170px;
+        right: 100px;
     }
 
 }

@@ -47,19 +47,19 @@
   margin: 8px 15px;
 }
 
-.cabecalho-menu ul {
+.navbar-nav {
   display: flex;
   list-style: none;
   gap: 40px;
 }
 
-.cabecalho-menu ul li a {
+.nav-item {
   text-decoration: none;
   font-weight: 700;
   font-size: 1.12em;
 }
 
-.lista-menu-um {
+#dif {
   color: var(--primary);
 }
 
@@ -88,8 +88,11 @@
 
 .main-titulo {
   color: var(--dark);
-  font-size: 2.8rem;
   font-weight: bold;
+}
+
+.main-titulo h2 {
+  font-size: 4rem;
 }
 
 .main-titulo h2 span {
@@ -319,6 +322,7 @@ section {
 }
 
 .footer-botao-flecha figure img {
+  display: none;
   max-width: 50px;
   position: absolute; /* Define a imagem como uma posição absoluta */
   bottom: 50px; /* Define a distância do fundo do contêiner para 0 (ou seja, a parte inferior) */
@@ -395,6 +399,25 @@ input {
   flex-direction: column;
   gap: 15px;
 }
+
+
+
+h2 {
+  font-family: 'Heebo', sans-serif;
+}
+
+.card-houses h3 {
+  font-size: 1.1rem;
+}
+
+.card-houses h4 {
+  font-size: 1rem;
+}
+
+.section-titulo h2 {
+  font-size: 3rem;
+}
+
 
 
 
